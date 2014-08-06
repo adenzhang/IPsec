@@ -1,0 +1,96 @@
+src fd00:976a:c206:1821::6 dst 2607:fb90:2c39:c08:0:1f:594a:f101
+        proto esp spi 0x00002651 reqid 16 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0xec29051f168f18f98aa820f27c91f0e3 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src 2607:fb90:2c39:c08:0:1f:594a:f101 dst fd00:976a:c206:1821::6
+        proto esp spi 0xc8c5761e reqid 15 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0xec29051f168f18f98aa820f27c91f0e3 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src fd00:976a:c206:1821::6 dst 2607:fb90:2c39:c08:0:1f:594a:f101
+        proto esp spi 0x00002650 reqid 14 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0xec29051f168f18f98aa820f27c91f0e3 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src 2607:fb90:2c39:c08:0:1f:594a:f101 dst fd00:976a:c206:1821::6
+        proto esp spi 0x44e71f41 reqid 13 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0xec29051f168f18f98aa820f27c91f0e3 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src fd00:976a:c206:1821::6 dst 2607:fb90:2c39:c08:0:1f:594a:f101
+        proto esp spi 0x00001ede reqid 12 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0xbc0919b04db16b8b1f8196de59b8b166 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src 2607:fb90:2c39:c08:0:1f:594a:f101 dst fd00:976a:c206:1821::6
+        proto esp spi 0x8d8414e2 reqid 11 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0xbc0919b04db16b8b1f8196de59b8b166 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src fd00:976a:c206:1821::6 dst 2607:fb90:2c39:c08:0:1f:594a:f101
+        proto esp spi 0x00001edd reqid 10 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0xbc0919b04db16b8b1f8196de59b8b166 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src 2607:fb90:2c39:c08:0:1f:594a:f101 dst fd00:976a:c206:1821::6
+        proto esp spi 0xebdbf5a4 reqid 9 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0xbc0919b04db16b8b1f8196de59b8b166 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src fd00:976a:c206:1821::6 dst 2607:fb90:2c39:c08:0:1f:594a:f101
+        proto esp spi 0x0000176a reqid 8 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0xfc6eed74fc93199ec7e07c358c72d909 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src 2607:fb90:2c39:c08:0:1f:594a:f101 dst fd00:976a:c206:1821::6
+        proto esp spi 0x75ac16ff reqid 7 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0xfc6eed74fc93199ec7e07c358c72d909 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src fd00:976a:c206:1821::6 dst 2607:fb90:2c39:c08:0:1f:594a:f101
+        proto esp spi 0x00001769 reqid 6 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0xfc6eed74fc93199ec7e07c358c72d909 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src 2607:fb90:2c39:c08:0:1f:594a:f101 dst fd00:976a:c206:1821::6
+        proto esp spi 0x60361a0f reqid 5 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0xfc6eed74fc93199ec7e07c358c72d909 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src fd00:976a:c206:1821::6 dst 2607:fb90:2c39:c08:0:1f:594a:f101
+        proto esp spi 0x00000ff7 reqid 4 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0x7ae836e0f03f8c547fd935d179b78477 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src 2607:fb90:2c39:c08:0:1f:594a:f101 dst fd00:976a:c206:1821::6
+        proto esp spi 0xa60a41e4 reqid 3 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0x7ae836e0f03f8c547fd935d179b78477 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src fd00:976a:c206:1821::6 dst 2607:fb90:2c39:c08:0:1f:594a:f101
+        proto esp spi 0x00000ff6 reqid 2 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0x7ae836e0f03f8c547fd935d179b78477 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0
+src 2607:fb90:2c39:c08:0:1f:594a:f101 dst fd00:976a:c206:1821::6
+        proto esp spi 0xf21599c6 reqid 1 mode transport
+        replay-window 4
+        auth-trunc hmac(sha1) 0x7ae836e0f03f8c547fd935d179b78477 96
+        enc ecb(cipher_null) 0x
+        sel src ::/0 dst ::/0

@@ -1,0 +1,24 @@
+src 10.254.45.36 dst 10.104.9.78
+	proto esp spi 0x000018ae reqid 4 mode transport
+	replay-window 4 
+	auth-trunc hmac(sha1) 0x3ad987f955acdef515bc2ce320b6f5a2 96
+	enc cbc(aes) 0xca05072fd0e3a72de4e9d5b2248eee98
+	sel src 0.0.0.0/0 dst 0.0.0.0/0 
+src 10.104.9.78 dst 10.254.45.36
+	proto esp spi 0x69d020a4 reqid 3 mode transport
+	replay-window 4 
+	auth-trunc hmac(sha1) 0x3ad987f955acdef515bc2ce320b6f5a2 96
+	enc cbc(aes) 0xca05072fd0e3a72de4e9d5b2248eee98
+	sel src 0.0.0.0/0 dst 0.0.0.0/0 
+src 10.254.45.36 dst 10.104.9.78
+	proto esp spi 0x000018ad reqid 2 mode transport
+	replay-window 4 
+	auth-trunc hmac(sha1) 0x3ad987f955acdef515bc2ce320b6f5a2 96
+	enc cbc(aes) 0xca05072fd0e3a72de4e9d5b2248eee98
+	sel src 0.0.0.0/0 dst 0.0.0.0/0 
+src 10.104.9.78 dst 10.254.45.36
+	proto esp spi 0xa1e0c6fe reqid 1 mode transport
+	replay-window 4 
+	auth-trunc hmac(sha1) 0x3ad987f955acdef515bc2ce320b6f5a2 96
+	enc cbc(aes) 0xca05072fd0e3a72de4e9d5b2248eee98
+	sel src 0.0.0.0/0 dst 0.0.0.0/0
